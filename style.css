@@ -1,0 +1,68 @@
+style.css
+
+body{
+   max-width: 100%;
+}
+.nav-bar{
+    display: flex;
+  
+} 
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    padding: 20px 10px;
+   
+}
+.nav >ul>li{
+display: inline;
+padding: 0px 50px 0px 50px;
+
+}
+.nav > img{
+   position: relative;
+   left: 50px;
+}
+.banner{
+    overflow-x: hidden;
+  
+    margin-top: 15px;
+    max-width: 100%;
+}
+.banner_content{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.banner_content h5 {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+ .banner_content h3 {
+    color: #222222;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
+.main_btn {
+    display: inline-block;
+    background: #f5204b;
+    padding: 0px 50px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 0px;
+    text-decoration: none;
+}
